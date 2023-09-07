@@ -1,147 +1,406 @@
-/********************* TAG SELECTOR *********************/
-
+/***************************************** GLOBAL TAGS SELETORS *****************************************/
 body {
-    color: #40514E;
+    margin: 0;
+    /*background-color: #C0C0C0;
+    background-color: #000000;*/
+    background-image: url("../img/commum/test7.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    font-family: 'Abel', sans-serif;
     text-align: center;
-    font-family: 'Quantico', sans-serif;
-    margin: 0px;
 }
 
+a {    
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+    a:hover {
+        color: #ffffff;
+    }
+
 h1 {
-    color: #66BFBF;
-    font-family: 'Licorice', cursive;
-    font-size: 5.625rem;
-    line-height: 2;
-    margin: 50px auto 0 auto;
+    color: #ffffff;
+    font-family: 'Qwigley', cursive;
+    font-size: 5.6rem;
+    margin: 0 auto;
 }
 
 h2 {
-    color: #66BFBF;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
+    color: #ffffff;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 0;
 }
 
 h3 {
-    color: #11999E;
-    font-family: 'Chakra Petch', sans-serif;
-}
-
-a {
-    color: #11999E;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #E0FFFF;
-}
-
-p {
-    line-height: 2;
+    color: #ffffff;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-style: italic;
 }
 
 hr {
-    border-color: #4f9191;
     border-style: none;
     border-bottom-style: dotted;
-    border-width: 5px;
-    margin: 100px auto;
-    width: 5%;
+    border-width: 8px;
+    /*color: #A9A9A9;*/
+    color: #DC143C;
+    margin: 50px auto;
+    width: 12%;
 }
 
-
-/********************* CLASS SELECTOR *********************/
-
-.top-container {
-    background-color: #E0FFFF;
-    padding-top: 6%;
-    position: relative;
+p {
+    color: #ffffff;
+    line-height: 2;
 }
 
-.topCloud {
-    position: absolute;
-    right: 22%;
-    top: 12%;
-}
+/******************************************* GLOBAL CLASSES SELETORS *******************************************/
 
-.bottomCloud {
-    position: absolute;
-    bottom: 42%;
-    left: 25%;
-}
-
-.middle-container {
-    margin: 100px auto;
-}
-
-.profile {
-    margin: 0 auto;
-    width: 50%;
-}
-
-.profileImg {
-    width: 250px;
-}
-
-.skillRow {
-    text-align: left;
-    margin: 100px auto;
-    width: 50%;
-}
-
-.computerImg {
+.siteIcon {
     float: left;
-    margin-right: 30px;
-    width: 35%;
+    width: 30px;
 }
 
-.readingImg {
+.header {
+    position: fixed;
+    text-align: right;
+    padding: 10px 50px 0px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    height: 40px;
+}
+
+.footer {
+    background-color: #000000;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.links {
+    color: #A9A9A9;
+}
+
+.bottomRightFire {
+    position: relative;
     float: right;
-    margin-right: 30px;
-    width: 35%;
+    right: 35px;
+    width: 100px;
+}
+
+.fotterCopyright {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.bottomLeftFire {
+    position: relative;
+    float: left;
+    left: 35px;
+    width: 100px;
+}
+
+.titleANDsubtitle {
+    color: #ffffff;
+}
+
+
+/******************************************* INDEX CLASSES SELETORS *******************************************/
+
+.topContainer {
+    margin-top: 0;
+    margin-left: 0;
+    /*background-color: #A9A9A9;*/
+    height: 600px;
+}
+
+.cuteDeathLeft {
+    position: absolute;
+    left: 35px;
+    bottom: 100px;
+    width: 400px;
+}
+
+.myPhoto {
+    padding: 50px 0 0 0;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.cuteDeathRight {
+    position: absolute;
+    right: 35px;
+    bottom: 100px;
+    width: 400px;
+}
+
+.skillContainer {
+    margin: 0 auto;
+    /*background-color: #A9A9A9;*/
+    height: 950px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+    margin: 15px auto;
+    width: 75%;
+}
+
+.skillLeft {
+    display: block;
+    float: left;
+    margin: 5px;
+    padding: 25px;
+    width: 415px;
+}
+
+.skillRight {
+    display: block;
+    float: right;
+    margin: 5px;
+    padding: 25px;
+    width: 415px;
+}
+
+.skillLeftImgs {
+    float: left;
+    width: 150px;
+}
+
+.skillRightImgs {
+    float: right;
+    width: 150px;
+}
+
+.skillTitle {
+    text-align: center;
+}
+
+.skillDescription {
+    text-align: justify;
+}
+
+.middleContainer {
+    /*background-color: #A9A9A9;*/
+    height: 750px;
+}
+
+/******************************************* CONTACT-ME CLASSES SELETORS *******************************************/
+
+.contactMeContainer {
+    margin-top: 0;
+    margin-left: 0;
+    /*background-color: #A9A9A9;*/
+    height: 580px;
+}
+
+.socialContainer {
+    margin-top: 58px;
+    width: 50%;
+    float: left;
+}
+
+.social {
+    margin: 30px auto;
+    width: 40%;
+    padding: 3px;
+}
+
+.socialDescription {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.socialLeftImg {
+    width: 50px;
+    float: left;
+}
+
+.socialRightImg {
+    width: 50px;
+    float: right;
+}
+
+.formContainer {
+    margin-top: 58px;
+    width: 50%;
+    float: right;
+}
+
+.nameContainer {
+    margin: 12px auto 5px auto;
+}
+
+.emailContainer {
+    margin: 0 auto 10px auto;
+}
+
+.formText {
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+    color: #ffffff;
+}
+
+.socialLinks {
+    color: #A9A9A9;
+    margin: 0 0;
 }
 
 .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    background: #b30000;
+    background-image: -webkit-linear-gradient(top, #b30000, #8a0e0e);
+    background-image: -moz-linear-gradient(top, #b30000, #8a0e0e);
+    background-image: -ms-linear-gradient(top, #b30000, #8a0e0e);
+    background-image: -o-linear-gradient(top, #b30000, #8a0e0e);
+    background-image: linear-gradient(to bottom, #b30000, #8a0e0e);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
+    border: none;
     border-radius: 8px;
-    display: inline-block;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Abel', sans-serif;
     color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
     text-decoration: none;
-}
+  }
   
-.btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  .btn:hover {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #b31717);
+    background-image: -moz-linear-gradient(top, #ff0000, #b31717);
+    background-image: -ms-linear-gradient(top, #ff0000, #b31717);
+    background-image: -o-linear-gradient(top, #ff0000, #b31717);
+    background-image: linear-gradient(to bottom, #ff0000, #b31717);
     text-decoration: none;
+  }
+
+/******************************************* ABOUT-ME CLASSES SELETORS *******************************************/
+
+.aboutMeContainer {
+    margin: 0;
+    margin-top: 50px;
+    /*background-color: #A9A9A9;*/
+    height: 500px;
 }
 
-.bottom-container {
-    background-color: #66BFBF;
-    height: 75px;
-    padding: 25px;
+.me0Img {
+    float: right;
+    margin: 90px 100px 0 0;
+    width: 600px;
 }
 
-.footerLink {
-    color: #11999E;
-    margin: 10px 20px 0 20px;
+.musicContainer {
+    margin: 0;
+    /*background-color: #A9A9A9;*/
+    height: 600px;
 }
 
-.footerInfo {
-    color: #EAF6F6;
-    font-size: 0.9rem;
-    margin-bottom: 0;
+.spotifyIframe {
+    float: left;
+    margin-left: 100px;
 }
+
+.moviesContainer {
+    margin: 0;
+    /*background-color: #A9A9A9;*/
+    height: 510px;
+}
+
+.moviesImgs {
+    width: 150px;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.apheliosContainer {
+    margin: 0;
+    /*background-color: #A9A9A9;*/
+    height: 600px;
+}
+
+.gamesContainer {
+    margin: 0;
+    /*background-color: #A9A9A9;*/
+    height: 650px;
+}
+
+.gamesImgs {
+    border-radius: 12px;
+    position: relative;
+    width: 150px;
+}
+
+/******************************************* OTHERS CLASSES SELETORS *******************************************/
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover, .next:hover {
+    background-color: #000000;
+    }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*********************** ID SELETORS ***********************/
